@@ -12,10 +12,10 @@ while True:
     now = datetime.now()
     current_time = now.strftime("%H:%M:%S")
 
-    p1 = now.replace(hour=8, minute=38, second=0, microsecond=0)  # first lesson
+    p1 = now.replace(hour=8, minute=38, second=0, microsecond=0)  
     first_class = p1.strftime("%H:%M:%S")
 
-    p2 = now.replace(hour=10, minute=10, second=0, microsecond=0)  #
+    p2 = now.replace(hour=10, minute=10, second=0, microsecond=0) 
     second_class = p2.strftime("%H:%M:%S")
 
     p3 = now.replace(hour=12, minute=00, second=0, microsecond=0)
